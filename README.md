@@ -1,3 +1,16 @@
+# Villedepommes' Notes
+
+
+* Flush w/ the generic [esp32 rom](https://micropython.org/download/esp32/) like so `esptool.exe --chip esp32 --port COM4 --baud 460800 write_flash -z 0x1000 esp32-20210418-v1.15.bin`
+* `pip install esptool`
+* `pip install adafruit-ampy`
+* copy the following files with `ampy put` 
+    * /boot.py
+    * /config.py
+    * /examples
+    * /sx127x.py
+    * /uPySensors
+
 # uPyLora
 ESP32 using MicroPython meets lora. 
 

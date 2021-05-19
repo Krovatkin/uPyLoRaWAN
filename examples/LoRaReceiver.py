@@ -9,4 +9,5 @@ def receive(lora):
             lora.blink_led()
             print('something here')
             payload = lora.read_payload()
+            display.show_text_wrap("Payload: {0}".format(payload))
             print(payload)
