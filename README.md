@@ -5,12 +5,15 @@
 * `pip install esptool`
 * `pip install adafruit-ampy`
 * copy the following files with `ampy put` 
-    * /boot.py
-    * /config.py
-    * /examples
-    * /sx127x.py
-    * /uPySensors
-
+    * boot.py
+    * config.py
+    * examples
+    * sx127x.py
+    * uPySensors
+    * main.py
+* `ampy run main.py` 
+    * if this command doesn't work manually run the commands via REPL
+    * there needs to be two versions of `main.py`. One for a receiver and another one for a transmitter
 # uPyLora
 ESP32 using MicroPython meets lora. 
 
